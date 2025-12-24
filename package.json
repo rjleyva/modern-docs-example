@@ -1,5 +1,8 @@
 {
-  "name": "vault",
+  "name": "modern-docs-example",
+  "author": "RJ Leyva",
+  "description": "RJ Leyva's modern documentation built with Vite + React + TypeScript with search capabilities.",
+  "license": "MIT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
