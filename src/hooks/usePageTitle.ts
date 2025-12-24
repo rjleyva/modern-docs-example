@@ -3,9 +3,13 @@ import { useEffect } from 'react'
 export const usePageTitle = (
   title: string | null,
   fallback: string = "RJ Leyva's Modern Docs"
-): void => {
+): string => {
+  const computedTitle =
+    title != null ? `${title} | RJ Leyva's Modern Docs` : fallback
+
   useEffect(() => {
-    document.title =
-      title != null ? `${title} | RJ Leyva's Modern Docs` : fallback
-  }, [title, fallback])
+    document.title = computedTitle
+  }, [computedTitle])
+
+  return computedTitle
 }
