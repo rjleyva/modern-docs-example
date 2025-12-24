@@ -1,11 +1,12 @@
 import type React from 'react'
+import { Outlet } from 'react-router'
 
-const MainLayout = ({
-  children
-}: {
-  children: React.ReactNode
-}): React.JSX.Element => {
-  return <main id="main">{children}</main>
+const MainLayout = (): React.JSX.Element => {
+  return (
+    <main id="main">
+      <Outlet />
+    </main>
+  )
 }
 
 export default MainLayout
