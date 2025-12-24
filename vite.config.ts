@@ -9,5 +9,13 @@ export default defineConfig({
         plugins: [['babel-plugin-react-compiler']]
       }
     })
-  ]
+  ],
+  server: {
+    port: 3000,
+    strictPort: true,
+    host: true,
+    hmr: {
+      port: 3000
+    }
+  }
 })
