@@ -1,17 +1,44 @@
-# React + TypeScript + Vite
+# RJ Leyva's Modern Docs Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern documentation site built with cutting-edge web technologies for fast, accessible, and maintainable documentation.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Core Framework
+- **React 19.2.3** - Latest React with concurrent features and improved performance
+- **TypeScript 5.9.3** - Strict type checking and modern JavaScript features
+- **Vite 7.3.0** - Lightning-fast build tool with HMR and optimized production builds
 
-## React Compiler
+### Build & Development Tools
+- **pnpm** - Fast, disk-efficient package manager
+- **React Compiler** - Automatic optimization of React components
+- **ESLint** - Code linting with strict TypeScript rules
+- **Prettier** - Code formatting with import sorting
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Documentation Processing
+- **Unified** - Text processing framework for markdown
+- **Remark** - Markdown parser with GitHub Flavored Markdown support
+- **Rehype** - HTML processor for custom React components
+- **YAML Frontmatter** - Metadata support for pages
 
-Note: This will impact Vite dev & build performances.
+### Styling & UI
+- **Modern Normalize** - Modern CSS reset for consistent styling
+- **React Helmet** - Dynamic head management for SEO
+
+### Development Experience
+- **Strict TypeScript Configuration** - Type-safe development with no `any` types
+- **Accessibility Linting** - JSX accessibility rules enforcement
+- **React Refresh** - Fast refresh during development
+- **Path Aliases** - Clean imports with `@/` prefix
+
+## Features
+
+- ⚡ **Fast Development** - Vite's instant HMR and React Compiler
+- 🎯 **Type Safe** - Full TypeScript coverage with strict rules
+- 📝 **Markdown First** - Content-driven with rich markdown processing
+- ♿ **Accessible** - Built-in accessibility linting and best practices
+- 🔍 **SEO Optimized** - Dynamic meta tags and structured content
+- 🚀 **Production Ready** - Optimized builds with modern tooling
 
 ## Expanding the ESLint configuration
 
