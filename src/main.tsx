@@ -1,4 +1,5 @@
 import { StrictMode } from 'react'
+import { HelmetProvider } from '@dr.pogodin/react-helmet'
 import { createRoot } from 'react-dom/client'
 import HomePage from './pages/HomePage'
 
@@ -10,6 +11,8 @@ if (!(rootElement instanceof HTMLElement)) {
 
 createRoot(rootElement).render(
   <StrictMode>
-    <HomePage />
+    <HelmetProvider>
+      <HomePage />
+    </HelmetProvider>
   </StrictMode>
 )
