@@ -3,7 +3,7 @@ import { Helmet } from '@dr.pogodin/react-helmet'
 import { usePageTitle } from '@/hooks/usePageTitle'
 
 const HomePage = (): React.JSX.Element => {
-  const pageTitle = usePageTitle('Home Page 🚀')
+  const pageTitle = usePageTitle('Home Page 🛖')
 
   return (
     <section id="home-page">
