@@ -1,0 +1,14 @@
+:root {
+  color-scheme: light dark;
+}
+
+:root,
+[data-theme='light'] {
+  --base: oklch(12.9% 0.042 264.695);
+  --surface: oklch(98.4% 0.003 247.858);
+}
+
+[data-theme='dark'] {
+  --base: oklch(98.4% 0.003 247.858);
+  --surface: oklch(12.9% 0.042 264.695);
+}
