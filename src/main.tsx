@@ -1,5 +1,4 @@
 import { StrictMode } from 'react'
-import { HelmetProvider } from '@dr.pogodin/react-helmet'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import routes from './routes/routes'
@@ -17,8 +16,6 @@ if (!(rootElement instanceof HTMLElement)) {
 
 createRoot(rootElement).render(
   <StrictMode>
-    <HelmetProvider>
-      <RouterProvider router={router} />
-    </HelmetProvider>
+    <RouterProvider router={router} />
   </StrictMode>
 )
