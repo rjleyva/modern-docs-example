@@ -5,10 +5,20 @@
 :root,
 [data-theme='light'] {
   --base: oklch(12.9% 0.042 264.695);
+  --muted: oklch(59.1% 0.293 322.896);
   --surface: oklch(98.4% 0.003 247.858);
 }
 
 [data-theme='dark'] {
   --base: oklch(98.4% 0.003 247.858);
+  --muted: oklch(70.7% 0.165 254.624);
   --surface: oklch(12.9% 0.042 264.695);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --base: oklch(98.4% 0.003 247.858);
+    --muted: oklch(70.7% 0.165 254.624);
+    --surface: oklch(12.9% 0.042 264.695);
+  }
 }
