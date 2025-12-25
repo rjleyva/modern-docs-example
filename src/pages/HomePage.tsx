@@ -1,5 +1,4 @@
 import type React from 'react'
-import { Helmet } from '@dr.pogodin/react-helmet'
 import { usePageTitle } from '@/hooks/usePageTitle'
 
 const HomePage = (): React.JSX.Element => {
@@ -7,9 +6,7 @@ const HomePage = (): React.JSX.Element => {
 
   return (
     <section id="home-page">
-      <Helmet>
-        <title>{pageTitle}</title>
-      </Helmet>
+      <title>{pageTitle}</title>
       Hero
     </section>
   )
